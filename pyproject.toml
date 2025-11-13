@@ -1,0 +1,10 @@
+[project]
+name = "lc-clickhouse"
+version = "0.1.0"
+description = "Clickhouse playground to learn more"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chdb>=3.7.2",
+    "pandas>=2.3.3",
+]
